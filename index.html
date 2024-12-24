@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock, Paper, Scissors</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col text-center">
+                <h1>Rock, Paper, Scissors</h1>
+                <p id="instructions">Choose one: Rock, Paper, or Scissors!</p>
+                <div id="game">
+                    <div id="playerChoices" class="mt-3">
+                        <button class="btn choice" data-choice="rock">🪨 Rock</button>
+                        <button class="btn choice" data-choice="paper">📄 Paper</button>
+                        <button class="btn choice" data-choice="scissors">✂️ Scissors</button>
+                    </div>
+                    <div id="result" class="mt-4"></div>
+                    <button id="resetButton" class="btn btn-secondary mt-3" style="display: none;">Play Again</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
